@@ -109,15 +109,7 @@ new TypeIt('#type1', {
     .type('Designer', { delay: 400 }).pause(500).delete(8)
     .type("Developer", { delay: 400 }).pause(500).delete(9).go()
 
-new TypeIt('#type2', {
-    speed: 120,
-    startDelay: 1000,
-    loop: true,
-    cursor: false,
-    waitUntilVisible: true
-}).type('Software Engineer', { delay: 400 }).pause(500).delete(17)
-    .type('Designer', { delay: 400 }).pause(500).delete(8)
-    .type("Developer", { delay: 400 }).pause(500).delete(9).go()
+
 
 new TypeIt("#name", {
     speed: 105,
